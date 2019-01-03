@@ -1,0 +1,6 @@
+name = input("Name: ")
+name = "\t{0}\n".format(name)
+print("Name with \\n and \\t:\n{0}".format(name))
+print("Name with lstrip():\n{0}".format(name.lstrip()))
+print("Name with rstrip():\n{0}".format(name.rstrip()))
+print("Name with strip():\n{0}".format(name.strip()))
